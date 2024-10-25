@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  padding: 28px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.523);
+  width: 35%;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 38px 2px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 0px 0px 38px 2px rgba(0, 0, 0, 0.72);
+  box-shadow: 0px 0px 38px 2px rgba(0, 0, 0, 0.72);
+}
+h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 56px;
+  margin: 35px 0;
+}
+hr {
+  background-color: black;
+}
+input {
+  border: 1px solid black;
+  outline: none;
+  border-radius: 3px;
+  width: 80%;
+  height: 40px;
+  padding: 0px 10px;
+  font: 18px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+ul {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  width: 80%;
+}
+li {
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  background-color: rgba(209, 209, 209, 0.58);
+}
+.delete {
+  width: 80px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+.any{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:95%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: rgba(255, 0, 0, 0.584);
+  background-color: rgba(254, 85, 0, 0.39);
+}
+.delete:hover {
+  background-color: rgb(128, 0, 0);
+}
+small {
+  font-weight: 400;
+  color: rgb(168, 157, 33);
+}
+@media only screen and (max-width: 992px) {
+  h3 {
+    font-size: 40px;
+    padding: 0 30px;
+  };
+}
+
